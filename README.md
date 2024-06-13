@@ -193,5 +193,165 @@ Destroy complete! Resources: 10 destroyed.
 
 ## 3. Ansible Configuration and installation:
 
+o Configure inventory and ansible config files
 
-   
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/d86a3c5a-667d-45d1-839a-f189539e22d7">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/0a7a683d-9218-4ff0-a6ac-6156d0e43a9a">
+
+
+o Write Ansible playbooks for EC2 instance configuration using ansible roles
+
+*see the full ansible roles and files in the ansible directory*
+
+use the "ansible-galaxy init" command to create any role directory
+```
+asem@asem-virtual-machine:~/final-project/ansible$ tree
+.
+├── ansible.cfg
+├── asem-ssh.pem
+├── docker_role
+│   ├── defaults
+│   │   └── main.yml
+│   ├── files
+│   ├── handlers
+│   │   └── main.yml
+│   ├── meta
+│   │   └── main.yml
+│   ├── README.md
+│   ├── tasks
+│   │   └── main.yml
+│   ├── templates
+│   ├── tests
+│   │   ├── inventory
+│   │   └── test.yml
+│   └── vars
+│       └── main.yml
+├── git_role
+│   ├── defaults
+│   │   └── main.yml
+│   ├── files
+│   ├── handlers
+│   │   └── main.yml
+│   ├── meta
+│   │   └── main.yml
+│   ├── README.md
+│   ├── tasks
+│   │   └── main.yml
+│   ├── templates
+│   ├── tests
+│   │   ├── inventory
+│   │   └── test.yml
+│   └── vars
+│       └── main.yml
+├── inventory
+├── jenkins_role
+│   ├── defaults
+│   │   └── main.yml
+│   ├── files
+│   ├── handlers
+│   │   └── main.yml
+│   ├── meta
+│   │   └── main.yml
+│   ├── README.md
+│   ├── tasks
+│   │   └── main.yml
+│   ├── templates
+│   ├── tests
+│   │   ├── inventory
+│   │   └── test.yml
+│   └── vars
+│       └── main.yml
+├── oc_role
+│   ├── defaults
+│   │   └── main.yml
+│   ├── files
+│   ├── handlers
+│   │   └── main.yml
+│   ├── meta
+│   │   └── main.yml
+│   ├── README.md
+│   ├── tasks
+│   │   └── main.yml
+│   ├── templates
+│   ├── tests
+│   │   ├── inventory
+│   │   └── test.yml
+│   └── vars
+│       └── main.yml
+├── openjdk_role
+│   ├── defaults
+│   │   └── main.yml
+│   ├── files
+│   ├── handlers
+│   │   └── main.yml
+│   ├── meta
+│   │   └── main.yml
+│   ├── README.md
+│   ├── tasks
+│   │   └── main.yml
+│   ├── templates
+│   ├── tests
+│   │   ├── inventory
+│   │   └── test.yml
+│   └── vars
+│       └── main.yml
+├── playbook.yml
+└── sonarqube_role
+    ├── defaults
+    │   └── main.yml
+    ├── files
+    ├── handlers
+    │   └── main.yml
+    ├── meta
+    │   └── main.yml
+    ├── README.md
+    ├── tasks
+    │   └── main.yml
+    ├── templates
+    ├── tests
+    │   ├── inventory
+    │   └── test.yml
+    └── vars
+        └── main.yml
+
+54 directories, 52 files
+
+```
+
+o run the ansible-playbook command to apply the tasks to the managed node
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/67023302-16e2-4f2a-94d3-2ed294af6084">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/53a4763a-65d0-45fd-b08f-83f1db57805e">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/13450891-5736-42ec-b1bb-4c8f9ec10751">
+
+o check the jenkins and sonarqube access
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/9e1f57b8-9a14-4aa4-9d94-e02a068c28fa">
+
+<<><>>>>
+
+
+## 4. Containerization with Docker:
+
+o Write a Dockerfile for building the application image.
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/2b876fb1-0118-4d9a-a3f8-a87782c40223">
+
+## 5. Continuous Integration with Jenkins.
+
+o Trigger Builds on Code Commits
+
+in the configuration of the pipeline select "GitHub hook trigger for GITScm polling"
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/f7dfa151-75a4-495c-9621-5444ccbbf7c1">
+
+in the github repo setting configure the webhook setting 
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/8ddd93b9-5a9c-49de-922f-39db047a2c66">
+
+## 6. Automated Deployment Pipeline:
+
+
