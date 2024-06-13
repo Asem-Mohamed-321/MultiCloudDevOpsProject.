@@ -8,9 +8,9 @@ plugins {
 
 sonarqube {
     properties {
-        property "sonar.projectKey", "my_project_key"
-        property "sonar.host.url", "http://your-sonarqube-server"
-        property "sonar.login", "your_sonar_token"
+        property "sonar.projectKey", "asem-project"
+        property "sonar.host.url", "localhost:9000"
+        property "sonar.login", "squ_331b405c47713739de63e332266ddbdf0ca4e8dd"
     }
 }
 
