@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('sonar') {
             steps {
-                sonarAnalysis.groovy()
+                sonarAnalysis()
             }
         }
     }
