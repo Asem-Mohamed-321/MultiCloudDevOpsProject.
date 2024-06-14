@@ -340,7 +340,63 @@ o Write a Dockerfile for building the application image.
 
 <img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/2b876fb1-0118-4d9a-a3f8-a87782c40223">
 
-## 5. Continuous Integration with Jenkins.
+## 5.Automated Deployment Pipeline:
+o set up your jenkins server 
+
+- set Credintitals
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/e7920555-9e58-4641-a069-ed6caef6a923">
+
+- install the desired plugins (Git,Docker,Sonarqube,..etc)
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/4b6047cf-298d-4826-a14c-bec5f8723a7b">
+
+- Configure global shared library
+*link for the shared library repo: https://github.com/Asem-Mohamed-321/shared-library/*
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/83fad176-efe9-49b2-a8d8-174bbf04e73a">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/02f421db-eb57-42ce-ae46-bf4b0ece9e60>
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/a6fd06ee-a27d-42ea-9398-db4c1cdcddfa">
+
+o Integrate Sonarqube and Jenkins
+
+- Configure the sonarqube server
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/83eb7369-5b2a-4fba-a439-3e9ec1c81d83">
+
+- Add the Sonarqube project configuration in the build file
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/5dbf1d9a-c156-428d-a39e-8629dbf1e333">
+
+-  *Remember to add a Sonarqube token as a secret text credintial in Jenkins*
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/90f7d4e3-4a8f-4711-8436-f2fe95531c38">
+
+o Configure your pipeline to use the repo with the jenkinsfile
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/b39104cd-58ae-4d2e-955b-794796cb67cd">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/6ba995df-aaa7-46dd-889f-00713adf6c3e">
+
+o Build the pipeline
+
+<<>>
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/b3aa44a0-157b-48dc-8d24-55c71f525b89">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/5088c567-e95b-4e42-87c1-f1ea1d7795e4">
+
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/1c13a879-3a71-482b-bf3a-d5720d790d23">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/d130431f-62da-47c6-806a-d5adbd0afbc4">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/794c1f5f-0897-4f40-a3ed-fea41919dc89">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/9094a7bd-7ab5-4ab6-b5c3-9db11ac8dab7">
+
+
+
+
+## 6. Continuous Integration with Jenkins.
 
 o Trigger Builds on Code Commits
 
