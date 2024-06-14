@@ -450,3 +450,36 @@ Open the URL found in the route in your web browser.
 Log in using your OpenShift credentials.
 
 <img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/f2d49d11-e96a-4bc3-b7f1-bb5073d02ca4">
+
+
+### 8- AWS Integration:
+
+#### remote backend state:
+Remote backends provide a centralized storage location for Terraform state files and enable collaboration among team members working on Terraform projects.
+
+if you want to add the remote back end to your project :
+
+Create the next resource blocks :
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/0a5534a5-ef86-430c-9e79-7624d26c285d">
+
+Then run " terraform apply " 
+
+Then add this terraform block to your file
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/62acb71c-0b72-4cad-b6f1-7b68074a6bbc">
+
+*Notes :*
+1- The last terraform block should be hard coded and can't be variables.
+2- You must run " terraform init " after you add the terraform block.
+3- If you want to run "terraform destroy" you must delete the bucket content manually.
+
+
+#### Cloudwatch integeration for monitoring
+
+if you want to provision a cloudwatch alarm to monitor the ec2 usage you can write the next terraform file 
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/8e16cd27-7b80-48d4-9bc0-6333cd7f82eb">
+
+this file provision an sns topic and sns subscribtion to send notification vviz email when the ec2 usage exceeds a certain threshold.
+
