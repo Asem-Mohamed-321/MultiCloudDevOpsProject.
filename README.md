@@ -408,6 +408,45 @@ in the github repo setting configure the webhook setting
 
 <img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/8ddd93b9-5a9c-49de-922f-39db047a2c66">
 
-## 6. Automated Deployment Pipeline:
+## 7. Monitoring and Logging
 
+We can use ELK (elasticsearch,logstach and kibana ) as a monitoring operator in the cluster 
+What is operators ? 
+A Kubernetes Operator is a software extension that makes use of custom resources to manage applications and their components more easily and swiftly. Operators are designed to automate the management of complex stateful applications on top of Kubernetes.
+ELASTICSEARCH: Whether you're looking for actions from a specific IP address or analyzing a spike in transaction requests Elasticsearch lets you store, search, and analyze with speed at scale.
+LOGSTECH: dynamically ingests, transforms, and ships your data regardless of format or complexity.
+KIBANA: gives shape and visualisation to your data and is the extensible interface.
 
+1- Deploy ElsaticSearch using the next two commands:
+```
+kubectl create -f https://download.elastic.co/downloads/eck/2.13.0/crds.yaml
+kubectl apply -f https://download.elastic.co/downloads/eck/2.13.0/operator.yaml
+```
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/36e1b005-af13-4946-bd11-abbb77f51b09">
+
+2- Deploy Logstach 
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/1060ecc4-6691-4896-8b1a-0437f841a5a8">
+
+```
+kubectl apply -f logstach
+```
+
+3- Deploy kibana 
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/7096f561-5602-4602-826d-f59e094c357a">
+
+```
+kubectl apply -f kibana.yml
+```
+
+find the Kibana route 
+```
+oc get route kibana -n elastic-system
+
+```
+Open the URL found in the route in your web browser.
+
+Log in using your OpenShift credentials.
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/f2d49d11-e96a-4bc3-b7f1-bb5073d02ca4">
