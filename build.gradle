@@ -9,7 +9,7 @@ plugins {
 sonarqube {
     properties {
         property "sonar.projectKey", "asem-project"
-        property "sonar.host.url", "localhost:9000"
+        property "sonar.host.url", "3.235.240.172:9000"
         property "sonar.login", "squ_331b405c47713739de63e332266ddbdf0ca4e8dd"
     }
 }
