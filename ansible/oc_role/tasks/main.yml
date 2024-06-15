@@ -1,0 +1,7 @@
+---
+# tasks file for oc_role
+- name: install oc cli 
+  shell: |
+    curl -LO https://mirror.openshift.com/pub/openshift-v4/clients/oc/latest/linux/oc.tar.gz
+    tar -xvf oc.tar.gz
+    sudo mv oc /usr/local/bin/

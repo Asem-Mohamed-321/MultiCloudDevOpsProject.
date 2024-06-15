@@ -1,0 +1,10 @@
+---
+# tasks file for git_role
+#
+- name : Update the apt package index
+  shell : apt update
+
+- name : install git
+  apt :
+    name: git
+    state: present
