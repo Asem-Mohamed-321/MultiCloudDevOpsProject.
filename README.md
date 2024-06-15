@@ -165,6 +165,13 @@ o Check your AWS enviironment
 
 <<<<<>>>>>>
 
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/01f91d0e-a3b8-44c9-995e-25e75e35a1a9>"
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/e626806d-e2ea-4fde-bf41-1e3eadca04e9">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/2cefe592-218d-4a64-bea7-be36ab0df5d7">
+
+
 
 o Make sure to run " terraform destroy " command to terminate and delete the resources you provisioned to reduce the cost
 the output should be like this:
@@ -329,9 +336,9 @@ o run the ansible-playbook command to apply the tasks to the managed node
 
 o check the jenkins and sonarqube access
 
-<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/9e1f57b8-9a14-4aa4-9d94-e02a068c28fa">
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/491b5d28-a710-423a-b4ca-e27477f085fc">
 
-<<><>>>>
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/55299ee4-6910-43da-a0de-9b8d63c6fd36">
 
 
 ## 4. Containerization with Docker:
@@ -345,7 +352,9 @@ o set up your jenkins server
 
 - set username and password
 
-<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/0e45ae2d-ed37-4d84-a4f0-02eed2eafcb5">
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/1343ba8f-de15-4ccf-aafc-7b9a9671dc43">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/75c6b39c-1023-4ce7-a4ab-312b372ef49d">
 
 - set Credintitals
 
@@ -367,10 +376,11 @@ o set up your jenkins server
 o Integrate Sonarqube and Jenkins
 
 - Configure the sonarqube server
-<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/83eb7369-5b2a-4fba-a439-3e9ec1c81d83">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/98613584-f41e-4b2a-bcdf-31f3a04ab6a8">
 
 - Add the Sonarqube project configuration in the build file
-<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/5dbf1d9a-c156-428d-a39e-8629dbf1e333">
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/36aa15cf-1b3f-466c-a293-db70db5544b3">
 
 -  *Remember to add a Sonarqube token as a secret text credintial in Jenkins*
 <img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/90f7d4e3-4a8f-4711-8436-f2fe95531c38">
@@ -395,7 +405,7 @@ o Build the pipeline
 
 <img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/794c1f5f-0897-4f40-a3ed-fea41919dc89">
 
-<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/9094a7bd-7ab5-4ab6-b5c3-9db11ac8dab7">
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/63df2a5f-23cb-4b54-a62d-5574ef74becf">
 
 
 
