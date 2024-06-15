@@ -42,6 +42,19 @@ o	All the code is to be pushed to the dev branch.
 
 o Merge the dev branch with the main branch using pull request.
 
+- at the top of the repo click "Compare and pull request"
+
+  <img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/a201e2d6-7331-4352-a892-e6a4ef0a484e">
+
+  then choose the base branch and the branch that will merge
+
+  <img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/f8a75465-850a-4b80-b576-1a11ab80a821">
+
+- choose create pull request
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/5d09b6d4-6833-4544-90a4-83e481236ead">
+
+
 <<<>>>>>
 
 ### 2. Terraform provisioning:
