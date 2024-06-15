@@ -343,9 +343,13 @@ o Write a Dockerfile for building the application image.
 ## 5.Automated Deployment Pipeline:
 o set up your jenkins server 
 
+- set username and password
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/0e45ae2d-ed37-4d84-a4f0-02eed2eafcb5">
+
 - set Credintitals
 
-<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/e7920555-9e58-4641-a069-ed6caef6a923">
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/3c6780af-018f-4996-928b-b6a24761d65f">
 
 - install the desired plugins (Git,Docker,Sonarqube,..etc)
 
@@ -378,7 +382,7 @@ o Configure your pipeline to use the repo with the jenkinsfile
 
 o Build the pipeline
 
-<<>>
+
 
 <img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/b3aa44a0-157b-48dc-8d24-55c71f525b89">
 
