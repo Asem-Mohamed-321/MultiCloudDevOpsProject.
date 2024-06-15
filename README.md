@@ -163,13 +163,20 @@ module.ec2.aws_instance.ec2: Creation complete after 34s [id=i-0c22d0424555f6e0d
 
 o Check your AWS enviironment
 
-<<<<<>>>>>>
 
-<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/01f91d0e-a3b8-44c9-995e-25e75e35a1a9>"
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/01f91d0e-a3b8-44c9-995e-25e75e35a1a9">
 
 <img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/e626806d-e2ea-4fde-bf41-1e3eadca04e9">
 
 <img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/2cefe592-218d-4a64-bea7-be36ab0df5d7">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/770c7eb5-0413-4db3-8314-5ea7f7735f13">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/4011bce2-ffe8-4fb1-994b-e194a59cf5a8">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/705ca1e2-158e-4bca-9f31-e9373e925556">
+
+<img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/67fca812-7aeb-4e91-bb48-5460c69ce550">
 
 
 
@@ -374,6 +381,10 @@ o set up your jenkins server
 <img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/a6fd06ee-a27d-42ea-9398-db4c1cdcddfa">
 
 o Integrate Sonarqube and Jenkins
+
+- Create Sonarqube project
+
+  <img src="https://github.com/Asem-Mohamed-321/MultiCloudDevOpsProject./assets/167926594/1d296dbf-9c1e-4aef-8ebb-8d26aff3317d">
 
 - Configure the sonarqube server
 
