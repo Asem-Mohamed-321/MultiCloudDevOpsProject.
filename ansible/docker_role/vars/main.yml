@@ -1,0 +1,4 @@
+---
+# vars file for labe_role
+ansible_become_pass: 'asem'
+

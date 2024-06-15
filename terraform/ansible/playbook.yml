@@ -1,0 +1,10 @@
+---
+- hosts : webservers
+  become : true
+  roles :
+    - git_role
+    - docker_role
+    - openjdk_role
+    - jenkins_role
+    - oc_role
+    - sonarqube_role      

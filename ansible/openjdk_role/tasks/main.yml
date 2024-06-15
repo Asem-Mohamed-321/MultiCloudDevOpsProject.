@@ -1,0 +1,10 @@
+---
+# tasks file for openjdk_role
+#
+- name : Update the apt package index
+  shell : apt update
+
+- name : installl opedndk17
+  apt:
+    name: openjdk-17-jre
+    state: present
